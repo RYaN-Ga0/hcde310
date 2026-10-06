@@ -1,0 +1,15 @@
+1. The Art of Everyday Life
+2. Chicago Architecture
+3. Impressionism and the Seasons
+4. Paper Cuts
+5. Faces of the City
+6. Water and Light
+
+THE ART OF EVERYDAY LIFE 24
+CHICAGO ARCHITECTURE 20
+IMPRESSIONISM AND THE SEASONS 29
+PAPER CUTS 10
+FACES OF THE CITY 17
+WATER AND LIGHT 15
+
+With "the": 3
