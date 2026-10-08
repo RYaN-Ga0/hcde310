@@ -1,0 +1,17 @@
+Ana – Impressionism
+Ben – Modern
+Chen – Impressionism
+Dee – Photography
+Eli – Modern
+Fatima – Impressionism
+Gus – Photography
+
+Ana: short
+Ben: short
+Chen: long
+Dee: short
+Eli: long
+Fatima: long
+Gus: short
+
+{'Impressionism': 3, 'Modern': 2, 'Photography': 2}
