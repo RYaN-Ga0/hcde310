@@ -1,0 +1,20 @@
+Nighthawks
+American Gothic
+The Old Guitarist
+Water Lilies
+Sky above Clouds IV
+Mao
+
+The Bedroom: old
+Nighthawks: modern
+American Gothic: modern
+A Sunday on La Grande Jatte: old
+The Old Guitarist: modern
+Water Lilies: modern
+The Child's Bath: old
+Sky above Clouds IV: modern
+Stacks of Wheat (End of Summer): old
+Mao: modern
+
+Old: 4
+Modern: 6
