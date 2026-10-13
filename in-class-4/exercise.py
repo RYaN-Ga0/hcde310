@@ -5,15 +5,15 @@
 
 # Snippet 1
 exhibit = {"title": "Water Lilies", "room": 243, "year": 1906}
-print("Find it in room " + exhibit["Room"])
+print("Find it in room " + str(exhibit["room"]))
 
 # Snippet 2
 exhibit = {"title": "Water Lilies", "room": 243, "year": 1906}
-print("Find it in room " + exhibit["room"])
+print("Find it in room " + str(exhibit["room"]))
 
 # Snippet 3
 exhibits = ["Water Lilies", "Nighthawks", "The Bedroom"]
-for i in range(len(exhibits) + 1):
+for i in range(len(exhibits)):
     print(i + 1, exhibits[i])
 
 # Snippet 4
@@ -26,7 +26,7 @@ def count_visits(visits, room):
     return total
 
 visits = [243, 101, 243, 262, 243]
-print(count_visits(visit, 243))
+print(count_visits(visits, 243))
 
 # Snippet 5
 def longest_title(titles):
@@ -35,7 +35,7 @@ def longest_title(titles):
     for t in titles:
         if len(t) > len(longest):
             longest = t
-    print(longest)
+    return longest
 
 title = longest_title(["Nighthawks", "The Bedroom", "Water Lilies"])
 print(title.upper())
