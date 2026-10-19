@@ -10,3 +10,18 @@
 
 from artworks import artworks
 
+counts = {}
+
+for artwork in artworks:
+    artist = artwork.get("artist", "Unknown")
+
+    if artist in counts:
+        counts[artist] += 1
+    else:
+        counts[artist] = 1
+
+print(counts)
+
+most_works_artist = max(counts, key=counts.get)
+print(f"Most works: {most_works_artist} ({counts[most_works_artist]})")
+
