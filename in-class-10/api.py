@@ -24,7 +24,7 @@ FAKE_MISSING_FIELDS = [
 FAKE_ERROR = None                                         # what get_books_real() returns when the call fails
 
 # Change this line to try a different case
-FAKE_DATA = FAKE_BOOKS
+FAKE_DATA = FAKE_MISSING_FIELDS
 
 
 def get_books(author):
