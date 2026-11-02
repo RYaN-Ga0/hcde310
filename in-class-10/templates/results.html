@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><title>Books by {{ author }}</title></head>
+<body>
+  <h1>Books by {{ author }}</h1>
+  <ul>
+  {% for book in books %}
+    <li>{{ book.title }}</li>
+  {% endfor %}
+  </ul>
+  <a href="/">New search</a>
+</body>
+</html>
