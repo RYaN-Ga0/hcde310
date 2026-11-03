@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Explorer</title>
+</head>
+<body>
+    <header>
+        <h1>Art Explorer</h1>
+        <p>
+            Explore artworks from the Art Institute of Chicago.
+            Search by artist name or artwork title.
+        </p>
+    </header>
+
+    <main>
+        <section aria-labelledby="search-heading">
+            <h2 id="search-heading">Search for Artworks</h2>
+
+            {% if message %}
+                <p role="alert">{{ message }}</p>
+            {% endif %}
+
+            <form action="/results" method="GET">
+                <label for="term">Artist name or artwork title</label>
+                <input
+                    type="text"
+                    id="term"
+                    name="term"
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
