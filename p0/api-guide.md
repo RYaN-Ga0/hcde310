@@ -65,8 +65,6 @@ print(
 
 ### Output
 
-**Run the script yourself and paste the output from your terminal here.** The values and timestamp change as the API updates, so the output on your computer may be different.
-
 Example of the output format:
 
 ```text
