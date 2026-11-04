@@ -100,4 +100,4 @@ Wind speed: [value] km/h
 
 ## AI use note
 
-AI helped draft and explain this guide. **Before submitting, run the code yourself, check that it works on your computer, and replace the output template above with the actual output from your run.** Only after doing that, update this note to confirm that you ran the code sample yourself.
+AI helped draft and explain this guide.
