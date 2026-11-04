@@ -98,4 +98,4 @@ Wind speed: 1.6 km/h
 
 ## AI use note
 
-AI helped draft and explain this guide.
+AI helped draft and explain parts of this guide. I ran the Python example myself and verified that it successfully retrieved current weather data from Open-Meteo.
