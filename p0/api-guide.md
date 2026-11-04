@@ -70,11 +70,11 @@ print(
 Example of the output format:
 
 ```text
-Time: [time returned by the API] (America/Los_Angeles)
-Temperature: [value] °C
-Humidity: [value] %
-Precipitation: [value] mm
-Wind speed: [value] km/h
+Time: 2026-11-04T08:00 (America/Los_Angeles)
+Temperature: 3.8 °C
+Humidity: 85 %
+Precipitation: 0.0 mm
+Wind speed: 1.6 km/h
 ```
 
 ## How the code works
