@@ -52,3 +52,16 @@ def test_no_results_shows_message(monkeypatch):
 
     assert page.status_code == 200
     assert b"No results found." in page.data
+
+def test_api_error_shows_generic_message(monkeypatch):
+    def fake_get_artworks(artist):
+        raise RuntimeError("Sensitive internal error")
+
+    monkeypatch.setattr("app.get_artworks", fake_get_artworks)
+
+    client = app.test_client()
+    page = client.post("/results", data={"artist": "Monet"})
+
+    assert page.status_code == 200
+    assert b"Sorry, something went wrong." in page.data
+    assert b"Sensitive internal error" not in page.data
