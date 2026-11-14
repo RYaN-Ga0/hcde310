@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Results for {{ artist }}</title>
+</head>
+<body>
+  <h1>Results for "{{ artist }}"</h1>
+  <p><a href="/">New search</a></p>
+  {% if artworks %}
+  <ul>
+    {% for art in artworks %}
+    <li>
+      <h2>{{ art.title }}</h2>
+      <p>{{ art.date_display or "Date unknown" }}</p>
+      {% if art.image_id %}
+      <img src="https://www.artic.edu/iiif/2/{{ art.image_id }}/full/843,/0/default.jpg" alt="{{ art.title }}" width="400">
+      {% else %}
+      <p>No image available</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No results found.</p>
+  {% endif %}
+</body>
+</html>
