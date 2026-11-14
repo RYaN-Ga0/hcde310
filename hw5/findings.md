@@ -4,8 +4,8 @@
 (photo here)
 
 ## 2. Two questions about the code
-1.
-2.
+In app.py, what does request.values.get("artist") do? Why is .strip() used after getting the artist name?
+In api.py, what does response.json().get("data", [])[:10] do? Why do we use [:10] at the end?
 
 ## 3. Checks (4 or more, at least 2 as pytest tests)
 | # | Check | Pass or fail |
