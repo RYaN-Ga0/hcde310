@@ -5,8 +5,9 @@
 from artworks import titles
 
 # 1. Print every title with a number
-for i, title in enumerate(titles, start=1):
-    print(f"{i}. {title}")
+for title in titles:
+    if "The" in title.lower():
+    print(f"Titles with an "The")
 
 # 2. Print how many titles there are
 print(f"Titles: {len(titles)}")
